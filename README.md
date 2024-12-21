@@ -6,7 +6,7 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+![](https://github.com/shivr154/MultiThreadedProxyServer/blob/main/pics/flow.png)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -43,7 +43,7 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ## How to Run
 
 ```bash
-$ git clone https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient.git
+$ git clone https://github.com/shivr154/MultiThreadedProxyServer.git
 $ cd MultiThreadedProxyServerClient
 $ make all
 $ ./proxy <port no.>
@@ -54,6 +54,6 @@ $ ./proxy <port no.>
 - This code can only be run in Linux Machine. Please disable your browser cache.
 
 ## Demo
-![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/cache.png)
+![](https://github.com/shivr154/MultiThreadedProxyServer/blob/main/pics/cache.png)
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
